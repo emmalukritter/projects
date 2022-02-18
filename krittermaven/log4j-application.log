@@ -1,0 +1,32 @@
+2022-01-05 12:41:40,388  INFO [main] bank:67 - Database connection is successful fro print bank!!!!
+2022-01-05 12:42:36,393  INFO [main] bank:56 - Database connection is successful !!!!
+2022-01-05 12:45:33,471  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 12:50:22,050  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 12:50:26,784  INFO [main] bank:95 - Database connection is successful for edit details !!!!
+2022-01-05 12:50:32,590  INFO [main] bank:123 - Database connection is successful fopr editing!!!!
+2022-01-05 17:04:45,791  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 17:05:11,588  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 17:05:33,338  INFO [main] bank:56 - Database connection is successful !!!!
+2022-01-05 17:05:40,968  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 17:07:50,823  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 17:08:06,907  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 17:17:11,373  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 18:35:16,231  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 18:35:20,107  INFO [main] bank:100 - Database connection is successful for edit details !!!!
+2022-01-05 18:35:27,704  INFO [main] bank:129 - Database connection is successful fopr editing!!!!
+2022-01-05 18:35:48,905  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 18:36:48,215  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 18:36:51,207  INFO [main] bank:100 - Database connection is successful for edit details !!!!
+2022-01-05 18:36:55,064  INFO [main] bank:128 - Database connection is successful fopr editing!!!!
+2022-01-05 18:38:11,409  INFO [main] bank:68 - Database connection is successful fro print bank!!!!
+2022-01-05 18:38:13,890  INFO [main] bank:100 - Database connection is successful for edit details !!!!
+2022-01-05 18:38:16,268  INFO [main] bank:128 - Database connection is successful for editing!!!!
+2022-01-05 18:38:16,271 ERROR [main] bank:139 - Wrong Bank id 
+2022-01-05 18:45:36,995  INFO [main] bank:56 - Database connection is successful !!!!
+2022-01-05 19:13:25,204  INFO [main] Customer:40 - Database connection is successful  for insert user!!!!
+2022-01-05 20:39:17,339  INFO [main] Customer:81 - Database connection is successful for edit details !!!!
+2022-01-05 20:39:35,380  INFO [main] Customer:81 - Database connection is successful for edit details !!!!
+2022-01-05 20:41:15,365  INFO [main] Customer:83 - Database connection is successful for login
+2022-01-06 14:27:03,576  INFO [main] Customer:83 - Database connection is successful for login
+2022-01-06 14:27:21,010  INFO [main] Customer:83 - Database connection is successful for login
+2022-01-06 14:27:56,062  INFO [main] Customer:83 - Database connection is successful for login

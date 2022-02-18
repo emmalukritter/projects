@@ -1,0 +1,65 @@
+@(theform: Form[models.Actor])(thelist: List[models.Actor])(message: String)
+@import helper._
+@myInputField(fieldname: String, label: String = "", placeholder: String = "" ) = {
+
+    <div class="form-group @if(theform(fieldname).hasErrors){ has-error}">
+
+        <label class="col-sm-2 control-label" for="@fieldname">@label</label>
+
+        <div class="col-sm-6"> 
+
+            <input class="form-control" type="text" name="@fieldname" id="@fieldname" placeholder="@placeholder" value="@theform(fieldname).value">
+
+            @if(theform(fieldname).hasErrors) {
+
+                <span class="help-inline">@theform(fieldname).errors.head.message</span>
+
+            }
+
+        </div>
+
+    </div>
+
+}
+
+
+<h1>The list</h1>
+
+<ul>
+
+@for( actor <- thelist ){
+
+    <li>@actor.toString()</li>
+    <li>@actor.toString() <a href="@routes.Application.editActor( actor.id )">Edit</a> <a href="@routes.Application.deleteActor( actor.id )">Delete</a></li>
+}
+
+</ul>
+
+
+<h1>Add Actor</h1>
+
+@helper.form(action = routes.Application.addActor, 'id -> "addactorform", 'class -> "form-horizontal") {
+
+    @myInputField("firstname","Firstname","Enter firstname")
+
+    @myInputField("lastname","Lastname","Enter lastname")
+
+    @myInputField("age","Age","Enter age")
+
+    @myInputField("role","Role","Enter role")
+
+    <input type="hidden" name="id" value="@theform("id").value">
+
+    <div class="form-group">
+
+        <label class="col-sm-2 control-label"></label>
+
+        <div class="col-sm-6">
+
+            <button class="btn" type="submit">Submit</button>
+
+        </div>
+
+    </div>
+
+}
